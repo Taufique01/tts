@@ -1,0 +1,76 @@
+{% load i18n %}
+
+
+
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="{% static '/vendors/bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="{% static '/css/auth.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+
+    <div class="login-reg-panel">
+
+        <div class="white-panel">
+            <div class="login-show">
+
+                <h2>TEXT TO SPEECH</h2>
+                <h3>Verify Your E-mail Address</h3>
+
+
+
+
+
+
+
+                {% url 'account_email' as email_url %}
+
+                <p>This part of the site requires us to verify that
+                    you are who you claim to be. For this purpose, we require that you
+                    verify ownership of your e-mail address.</p>
+
+                <p>{% blocktrans %}We have sent an e-mail to you for
+                    verification. Please click on the link inside this e-mail. Please
+                    contact us if you do not receive it within a few minutes.{% endblocktrans %}</p>
+
+                <p>{% blocktrans %}<strong>Note:</strong> you can still <a href="{{ email_url }}">change your e-mail address</a>.{% endblocktrans %}</p>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="{% static '/vendors/jquery/dist/jquery.min.js' %}"></script>
+    <!-- Bootstrap -->
+    <script src="{% static '/vendors/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static '/js/auth.js' %}"></script>
+
+
+</body>
+
+</html>

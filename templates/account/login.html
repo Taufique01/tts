@@ -1,0 +1,65 @@
+{% load i18n %}
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="{% static '/vendors/bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="{% static '/css/auth.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <div class="login-reg-panel">
+
+        <div class="white-panel">
+            <div class="login-show">
+                <form method="POST" action="{% url 'account_login' %}"> {% csrf_token %}
+                    <h2>TEXT TO SPEECH</h2>
+                    {% if redirect_field_value %}
+                    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}">
+                    {% endif %}
+                    <div style="color: red;">{{form.login.errors}}</div>
+                    <input name="login" type="email" placeholder="Email" autofocus="autofocus">
+                    <div style="color: red;">{{form.password.errors}}</div>
+
+                    <input name="password" type="password" placeholder="Password">
+                    <input type="submit" value="Login">
+
+
+                </form>
+
+            </div>
+            <div class="login-show">
+
+                <a href="{% url 'account_reset_password' %}" style="margin-right: 5px">Forgottten</a>
+                <a href="{% url 'account_signup' %}">Register</a>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="{% static '/vendors/jquery/dist/jquery.min.js' %}"></script>
+    <!-- Bootstrap -->
+    <script src="{% static '/vendors/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static '/js/auth.js' %}"></script>
+
+
+</body>
+
+</html>

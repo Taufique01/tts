@@ -1,0 +1,3 @@
+for textract
+sudo apt-get install build-essential libpoppler-cpp-dev pkg-config python3.6-dev
+

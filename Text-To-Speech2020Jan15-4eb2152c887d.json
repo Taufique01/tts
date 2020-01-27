@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "text-to-speech2020jan15",
+  "private_key_id": "4eb2152c887ddae441a516203a89f196b09994c3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDfWFNhEbMrLscX\n5OBznOFn94kUfB8x65fG+lOp2CqcFQxXVHShy6jRcCca0gfI1ecrtCsC0CDWXd61\nZiGOd14pHHqHsQhGgqZNFY0LyjVrPo5Qs7BxntdcSmf5zO+HdAmHlYPONOFkkZou\nu9bwGs4GuRZvlAsE3MolBUT+ncBmKsWZaPBDOywy4OBQRKImbMH5WbvsgL7pm8r0\nc3P+/PrZCqdixCMN5qnQp9mvi2c+tAKAefUQqiRcKif0YhKVFBSGMj74si6hojeE\n+s6e/qeDSagnd3y3FjWkcATlWZAKBjqUfXKPEMnIB5OHNg8NAGL+WkmPLAASHxL2\nJwmW37BJAgMBAAECggEAAskJGfV/2Wkdbk5aTQbNU5/lWgryoD6mAQMl+cD3RkTU\nh3hHQuDiOGGgkzfAUhn2ZpFtVRa/k7ABZk8hc80VFwhcYznRdrOlaEh9a4K4WzlU\nZAXbP8EX29yvr3bsG8sJXWMypoBhUs3ZpH1bzYwmbc4I5uS4cg76bfv2I5vxbM5T\n+4EdbzkOfXqUpm3724DocQ1P/6GGzqE7nAlCXWyRHV9w1aTzKggOUTRiBoRbMXeR\nXIwiNs/rRPrOzn8WfnKG+r0qSAM8tICGJbRcFZMw1DwE3AgooFgtE/O4qZphrscL\nVB6wjsfSYBM9ZSXzRNCxgwpBn8+vuR7Mx7eUapCQUwKBgQDwjcOQopOqlmkR1RGv\nIuSXyWJ985NKQkA/nGJkMG2ZGPo4XpbSMV9/F/hNacDd1aUYhFxilgRrsqseygJW\nSXQwRZtd3M1y7WTLfhuwJuxMbORyOXdi1CDa9O0nCkpHGkFuIhTx4dSE/3Av2ND6\nEjRtiv7dLF9XwcJfY9H6d3kOYwKBgQDtr676OWrsmSgs4m2G1E7kkdUFm/xCZQDy\nZ7zduii5sRscxIjGe9wpSv5osKt2I8DhXcfyuB+Seu0zq0S1BHv0xRn9Vm4Dy+km\nCwkIQBsf+UgVHnNpshgljbbbj78Kbe2MJxpUDR7W148RHlPpa7ID4T82fWOXLaY/\nM+AvDs5gYwKBgEgsUIPBs4pYDHg0NFUWo/1Ch9GAVi3OiNZNBlxHB2sKynBFOP0h\noSRRvccENsCYDCu58roFhpgFiD/5ng/jg//DsqTLzbxwq3A+ivIkC3u2pCf9Q+ub\n96uaFtlCxhxlLUJs6VnVRt0Mgs1oQPL2qVJAhM05NfXvhXD3UxXR6Lk/AoGAe4m3\nqYjUYVsNfZ7GjLCmvLhrfvnfOGclAdkXWita5YD+9YnVCUzxVmkLKEDDLalRpBFJ\nToeSqWDJDvTyxh8pikQzyO/2SHTgnoxXynj/YDQB2jA0jngpgsNQingBNJuEPzdH\nwO383G+3hY88z/LQ2KFnaJvtenMYmHsPB4Zrj78CgYEAw6lNFMZ7wRQ2LeIkCG5U\nXlSUQkykuww/zkDxe1s+Lo/x+7ivn4atFeVAskah4wVBYcEZY+eZkHdLwz4ZV98C\nVmqineCiNsuiEogZuCeCFBrlFGLRHOfJJf83Cs0WdaBXbdyzsqpBG2ydBPLuUVb9\npsf77NayAR/K/8ioqfkNAkQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "text-to-speech-taufiquehr@text-to-speech2020jan15.iam.gserviceaccount.com",
+  "client_id": "110707334670220024531",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/text-to-speech-taufiquehr%40text-to-speech2020jan15.iam.gserviceaccount.com"
+}

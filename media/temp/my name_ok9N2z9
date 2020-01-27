@@ -1,0 +1,156 @@
+My name is rafi.I am from bangladesh.
+What is your name?Where are you from?
+What is you hobby.
+  lectures, a reuse distance D, reuse factor Q, and
+parameter N, which describes a number of cells in cluster, have been used to obtain
+the carrier-to-interference (C/I) ratio:
+
+1
+
+
+Q=
+C
+=
+I
+
+D
+R
+D0−γ 0
+M
+
+∑D γ
+k =1
+
+−
+k
+
+k
+
+Where γ is the factor of signal strength attenuation with distance between BS and any
+subscriber, M is a number of interfering cells in the cellular pattern. The following
+simplifications are used:
+-
+
+First tier interference (M=6);
+equal distance from interfering BSs (Dk=D);
+equal path-loss exponent ( γ k = γ 0 = γ ).
+
+That is,
+D0−γ
+C
+=
+I 6 D −γ
+Maximal interference can be obtain if D0=R, the system requirements for proper
+detection is to achieve (C/I)min.
+1 R
+ 
+6 D
+
+−γ
+
+C 
+≥ 
+ I  min
+
+ C 
+Q =  6  
+  I  min 
+
+γ
+
+Radio Capacity:
+Radio capacity can be defined as:
+
+m=
+
+Bt
+radio ch./cell
+Bc N
+
+from Q = 3 N we can obtain:
+m=
+
+m=
+
+Bt
+=
+Q2
+ 6
+Bc
+Bc  γ/ 2
+3
+3
+Bt
+Bc
+
+2C
+ 
+3  I  min
+
+2
+
+Bt
+C 
+  
+ I  min 
+
+2 /γ
+
+for γ = 4
+
+
+
+ 
+
+ C  
+   
+  I   min
+
+   C   
+Q =   6     
+    I   min  
+
+ 
+
+Radio Capacity:
+Radio capacity can be defined as:
+
+m=
+
+Bt
+radio ch./cell
+Bc N
+
+from Q = 3 N we can obtain:
+m=
+
+m=
+
+Bt
+=
+Q2
+  6
+Bc
+Bc    / 2
+3
+ 3
+Bt
+Bc
+
+2 C 
+   
+3   I   min
+
+2
+
+Bt
+ C   
+     
+  I   min  
+
+2 / 
+
+for   = 4
+
+
+

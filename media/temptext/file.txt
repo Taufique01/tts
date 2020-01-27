@@ -1,0 +1,97 @@
+
+
+Q=
+C
+=
+I
+
+D
+R
+D0 0
+M
+
+D 
+k =1
+
+
+k
+
+k
+
+Where  is the factor of signal strength attenuation with distance between BS and any
+subscriber, M is a number of interfering cells in the cellular pattern. The following
+simplifications are used:
+-
+
+First tier interference (M=6);
+equal distance from interfering BSs (Dk=D);
+equal path-loss exponent (  k =  0 =  ).
+
+That is,
+D0
+C
+=
+I 6 D 
+Maximal interference can be obtain if D0=R, the system requirements for proper
+detection is to achieve (C/I)min.
+1 R
+ 
+6 D
+
+
+
+C 
+ 
+ I  min
+
+ C 
+Q =  6  
+  I  min 
+
+
+
+Radio Capacity:
+Radio capacity can be defined as:
+
+m=
+
+Bt
+radio ch./cell
+Bc N
+
+from Q = 3 N we can obtain:
+m=
+
+m=
+
+Bt
+=
+Q2
+ 6
+Bc
+Bc  / 2
+3
+3
+Bt
+Bc
+
+2C
+ 
+3  I  min
+
+2
+
+Bt
+C 
+  
+ I  min 
+
+2 /
+
+for  = 4
+
+Comparison between systems with same voice quality gives:
+-
+
+
+
